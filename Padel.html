@@ -13,39 +13,44 @@
         <h1 class="p-h1">PÁDEL</h1> 
     </header>
         <div class="div-padel">
-            <img src="./Imagenes/Padel.jfif" alt="Area Chica">
+            <img onclick="agrandarFoto('./Imagenes/Padel.jfif')" src="./Imagenes/Padel.jfif" alt="Area Chica">
             <h3>Area Chica</h3></br>
             <p>Martinez Buenos Aires AR, Cuyo 1926</p> 
             <form action="#">
-                <label for="horarios" class="label3"> <b>Horarios disponibles</b></label><br>
-                <select class="select3" name="Horarios" id="horarios">
-                    <option value="1">17:00hs a 18:00hs</option>
-                    <option value="2">18:00hs a 19:00hs</option>
-                    <option value="3">19:00hs a 20:00hs</option>
-                    <option value="4">20:00hs a 21:00hs</option>
-                    <option value="5">21:00hs a 22:00hs</option>
-                    <option value="6">22:00hs a 23:00hs</option>
+                <label for="horariosp" class="horariosp"> <b>Horarios disponibles</b></label><br>
+                <select name="horariosp" id="horariosp">
+                    <option value="17:00hs a 18:00hs">17:00hs a 18:00hs</option>
+                    <option value="18:00hs a 19:00hs">18:00hs a 19:00hs</option>
+                    <option value="19:00hs a 20:00hs">19:00hs a 20:00hs</option>
+                    <option value="20:00hs a 21:00hs">20:00hs a 21:00hs</option>
+                    <option value="21:00hs a 22:00hs">21:00hs a 22:00hs</option>
+                    <option value="22:00hs a 23:00hs">22:00hs a 23:00hs</option>
                 </select><br>
-                <button class="button3">RESERVAR</button>
+                <button onclick="reservarCanchaP()" class="button3">RESERVAR</button>
             </form>     
         </div>
         <section class="section-padel">
-            <img src="./Imagenes/punta verde padel.jfif" alt="Punta Verde">
+            <img onclick="agrandarFoto('./Imagenes/punta verde padel.jfif')" src="./Imagenes/punta verde padel.jfif" alt="Punta Verde">
             <h3>Punta Verde</h3></br>
             <p>Beccar Buenos Aires Ar, José Ingenieros 2610</p>
             <form action="#">
-                <label for="horarios" class="label4"> <b>Horarios disponibles</b></label><br>
-                <select class="select4" name="Horarios" id="horarios">
-                    <option value="1">17:00hs a 18:00hs</option>
-                    <option value="2">18:00hs a 19:00hs</option>
-                    <option value="3">19:00hs a 20:00hs</option>
-                    <option value="4">20:00hs a 21:00hs</option>
-                    <option value="5">21:00hs a 22:00hs</option>
-                    <option value="6">22:00hs a 23:00hs</option>
+                <label for="horariospa" class="horariospa"> <b>Horarios disponibles</b></label><br>
+                <select name="horariospa" id="horariospa">
+                    <option value="17:00hs a 18:00hs">17:00hs a 18:00hs</option>
+                    <option value="18:00hs a 19:00hs">18:00hs a 19:00hs</option>
+                    <option value="19:00hs a 20:00hs">19:00hs a 20:00hs</option>
+                    <option value="20:00hs a 21:00hs">20:00hs a 21:00hs</option>
+                    <option value="21:00hs a 22:00hs">21:00hs a 22:00hs</option>
+                    <option value="22:00hs a 23:00hs">22:00hs a 23:00hs</option>
                 </select><br>
-                <button class="button4">RESERVAR</button>
+                <button onclick="reservarCanchaP2()" class="button4">RESERVAR</button>
             </form> 
         </section>
-<script src="codigo.js"></script>
+        <div onclick="cerrarImagen()"  id="imagenes">
+            <div id="imagen-contenido">
+              <img id="imagen-ampliada" src="" alt="Imagen Ampliada">
+            </div>
+        </div>
+        <script src="codigo.js"></script>  
 </body>
 </html>
