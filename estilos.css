@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
 body{
     background-color: #f8f3e4;
 }
@@ -5,52 +13,49 @@ header{
     background-color: cadetblue;
 }
 
-.nav1{
-    padding: 150px;
-}
+
 .h1{
-    font-size: 120px; color:#f8f3e4;
-    width: 100%;
+    font-size: 50px; color:#f8f3e4;
     text-align: center;
 }
 
 .h2{
-    font-size: 50px; color:#f8f3e4;
-    width: 100%;
+    font-size: 30px; color:#f8f3e4;
     text-align: center;
 }
 
 .botones{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    min-width: 150px;
+
 }
 .a-futbol{
     text-decoration: none;
     background-color: #f8f3e4;
-    padding: 80px;
-    font-size: 40px;
+    padding: 40px;
+    font-size: 20px;
     border-radius: 20px;
     box-shadow: 4px 4px 15px 0 #000;
-    margin-right: 80px;
+    margin-right: 50px;
 }
 
 .a-padel{
     text-decoration: none;
     background-color: #f8f3e4;
-    padding: 80px;
-    font-size: 40px;
+    padding: 40px;
+    font-size: 20px;
     border-radius: 20px;
     box-shadow: 4px 4px 15px 0 #000;
+
 }
 .h3{
-    font-size: 40px;
-    width: 100%;
+    font-size: 30px;
     text-align: center;
 }
 .p-index{
-    font-size: 30px;
-    width: 100%;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -61,10 +66,9 @@ header{
 
 
 ._h1{
-    width: 100%;
-    font-size: 120px; color:#f8f3e4;
+    font-size: 40px; color:#f8f3e4;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
 }
 
 
@@ -77,204 +81,225 @@ header{
     width: 100%
 }
 .div-futbol img {
-    width: 300px;
+    width: 150px;
     margin-left:20px;
-    margin-top: 7px;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
     float: left;
+    cursor: pointer;
    }
 
 .div-futbol h3 {
  float:left;
  width: 80%;
- font-size: 60px;
- margin-top: 0;
+ font-size: 25px;
+ margin-top: 10px;
  margin-bottom: 0; 
 }
 .div-futbol p {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
     float: inline-start;
-    font-size: 40px;
+    font-size: 20px;
 }
 .div-futbol form{
     float: right;
-    padding: 20px;
-    font-size: 20px;
-    margin-right: 30px;
+    font-size: 10px;
+    margin-right: 10px;
 }
 .label1{
-    font-size: 30px;
+    font-size: 10px;
 }
 .select1{
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    cursor: pointer;
+
 }
 .button{
-    padding: 20px;
-    margin-left: 20%;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .section-futbol{
     box-shadow: 4px 4px 40px 0 #000;;
     border-radius: 30px;
-    display: inline-block;
-    margin-top: 30px;
+    display:inline-block;
+    margin-top: 0px;
     margin-right: 10px;
     width: 100%
 }
 .section-futbol img {
-    width: 300px;
+    width: 150px;
     margin-left:20px;
-    margin-top: 7px;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
     float: left;
+    cursor: pointer;
    }
 
 .section-futbol h3{
-    float: left;
+    float:left;
     width: 80%;
-    font-size: 60px;
-    margin-top: 0;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 0;
-    
 }
 .section-futbol p {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
     float: inline-start;
-    font-size: 40px;
+    font-size: 20px;
 }
 .section-futbol form{
     float: right;
-    padding: 20px;
-    font-size: 20px;
-    margin-right: 30px;
+    font-size: 10px;
+    margin-right: 10px;
 }
 .label2{
-    font-size: 30px;
+    font-size: 10px;
 }
 .select2{
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    cursor: pointer;
 }
 .button2{
-    padding: 20px;
-    margin-left: 20%;
+    padding: 10px;
+    cursor: pointer;
 }
 
 
 
 .p-h1 {
-    width: 100%;
-    font-size: 120px; color:#f8f3e4;
+    font-size: 40px; color:#f8f3e4;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
 }
 
 .div-padel{
     box-shadow: 4px 4px 40px 0 #000;;
     border-radius: 30px;
-    display: inline-block;
-    margin-top: 30px;
+    display:inline-block;
+    margin-top: 0px;
     margin-right: 10px;
     width: 100%
     }
 
 .div-padel img {
-    width: 300px;
+    width: 175px;
     margin-left:20px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10px;
+    margin-bottom: 0;
     float: left;
+    cursor: pointer;
    }
 
 .div-padel h3 {
-    float: left;
+    float:left;
     width: 80%;
-    font-size: 60px;
-    margin-top: 0;
-    margin-bottom: 0; 
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .div-padel p {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
     float: inline-start;
-    font-size: 40px;
+    font-size: 20px;
 }
 .div-padel form{
     float: right;
-    padding: 30px;
-    font-size: 20px;
-    margin-right: 30px;
+    font-size: 10px;
+    margin-right: 10px;
 }
 .label3{
-    font-size: 30px;
+    font-size: 10px;
 }
 .select3{
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    cursor: pointer;
 }
 .button3{
-    padding: 20px;
-    margin-left: 20%;
+    padding: 10px;
+    cursor: pointer;
 }
 
 
 .section-padel{
     box-shadow: 4px 4px 40px 0 #000;;
     border-radius: 30px;
-    display: inline-block;
-    margin-top: 30px;
+    display:inline-block;
+    margin-top: 0px;
     margin-right: 10px;
     width: 100%
 }
 .section-padel img {
-    width: 300px;
+    width: 160px;
     margin-left:20px;
-    margin-top: 7px;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
     float: left;
+    cursor: pointer;
    }
 .section-padel h3{
-    float: left;
+    float:left;
     width: 80%;
-    font-size: 60px;
-    margin-top: 0;
-    margin-bottom: 0;     
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;   
 }
 .section-padel p {
-    margin-left: 10px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
     float: inline-start;
-    font-size: 40px;
+    font-size: 20px;
 }
 .section-padel form{
     float: right;
-    padding: 30px;
-    font-size: 20px;
-    margin-right: 30px;
+    font-size: 10px;
+    margin-right: 10px;
 }
 .label4{
-    font-size: 30px;
+    font-size: 10px;
 }
 .select4{
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    cursor: pointer;
 }
 .button4{
-    padding: 20px;
-    margin-left: 20%;
+    padding: 10px;
+    cursor: pointer;
 }
 
+#imagenes {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+#imagen-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+#imagen-ampliada {
+    max-width: 90%;
+    max-height: 90%;
+  }
